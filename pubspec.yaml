@@ -1,0 +1,43 @@
+name: life_of_hazrat_muhammad_s_a_w
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_animate: ^4.5.0
+  curved_navigation_bar: ^1.0.3
+  share_plus: ^8.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.2
+
+flutter:
+  fonts:
+    - family: UrduFont
+      fonts:
+        - asset: fonts/Jameel Noori Nastaleeq.ttf
+    - family: EngFont
+      fonts:
+        - asset: fonts/angltrr.ttf
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
+
+
+
